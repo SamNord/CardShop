@@ -1,0 +1,16 @@
+img {
+    /* height: 250px; */
+    width: 15rem;
+    height: 13rem;  
+}
+
+.link {
+  color: brown;
+}
+
+.card-body {
+    border: solid black 1px;
+    width: 15rem;
+    margin-top: 0;
+    text-align: center;
+}

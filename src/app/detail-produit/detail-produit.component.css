@@ -1,0 +1,22 @@
+img {
+    height: 200px;
+    padding: 10px;
+}
+
+.card {
+    height: 200px;
+}
+
+.body {
+    background-color: bisque;
+}
+
+.btn {
+    background-color: brown;
+    color: rgb(177, 241, 231);
+}
+
+.card-title, .card-text {
+    color: rgb(146, 99, 13);
+ }
+
