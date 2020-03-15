@@ -11,12 +11,18 @@ img {
     background-color: bisque;
 }
 
-.btn {
+.add {
     background-color: brown;
     color: rgb(177, 241, 231);
+    font-weight: bold;
 }
 
 .card-title, .card-text {
     color: rgb(146, 99, 13);
+ }
+
+ .infos {
+     color: darkmagenta;
+     font-weight: bold;
  }
 

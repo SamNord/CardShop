@@ -12,6 +12,7 @@ import { PanierComponent } from './panier/panier.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { MenuComponent } from './menu/menu.component';
 import { AccueilComponent } from './accueil/accueil.component';
+import { TestOwlCarousselComponent } from './test-owl-caroussel/test-owl-caroussel.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AccueilComponent } from './accueil/accueil.component';
     PanierComponent,
     SearchComponent,
     ListeProductsComponent,
-    DetailProduitComponent
+    DetailProduitComponent,
+    TestOwlCarousselComponent
    
   ],
   imports: [

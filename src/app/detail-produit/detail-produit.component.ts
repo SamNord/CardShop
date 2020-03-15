@@ -12,6 +12,7 @@ export class DetailProduitComponent implements OnInit {
   id;
   exist = false;
   quantity = 1;
+
   constructor(private data: DataService, private route: ActivatedRoute) { }
 
   ngOnInit() {
@@ -21,8 +22,6 @@ export class DetailProduitComponent implements OnInit {
         this.product.push(elt);
       }
     });
-
-    console.log(this.data.productPanier)
   }
 
   addInPanier = (id) => {
@@ -38,11 +37,7 @@ export class DetailProduitComponent implements OnInit {
       else {
         this.data.productPanier.push({id :produit.id, nom : produit.titre, qty : 1, prix : produit.prix, img : produit.image})        
       }   
- 
- console.log(this.data.productPanier)
-    // this.data.obsQty.next(1);
-    alert("produit ajouté");
- 
+     alert("produit ajouté");
   }
 
 }

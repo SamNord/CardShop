@@ -1,10 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+@import '../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css';
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
 
+
 html, body {
     height: 100%;
-    background: url('./assets/fonds/fond5.jpg') no-repeat center fixed;
+    background: url('./assets/fonds/fond77.jpeg') no-repeat center fixed;
     background-size: cover;
 }
