@@ -13,6 +13,10 @@ import { CatalogComponent } from './catalog/catalog.component';
 import { MenuComponent } from './menu/menu.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { TestOwlCarousselComponent } from './test-owl-caroussel/test-owl-caroussel.component';
+import { CarouselModule }  from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 @NgModule({
   declarations: [
@@ -27,12 +31,16 @@ import { TestOwlCarousselComponent } from './test-owl-caroussel/test-owl-carouss
     DetailProduitComponent,
     TestOwlCarousselComponent
    
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CarouselModule,
+    BrowserAnimationsModule
+      
   ],
   providers: [],
   bootstrap: [AppComponent]
