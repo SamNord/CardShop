@@ -10,7 +10,12 @@ img {
 
 .card-body {
     border: solid black 1px;
+    background-color :rgb(151, 173, 25);
     width: 15rem;
     margin-top: 0;
     text-align: center;
+}
+
+h1 {
+  color:rgb(151, 173, 25) !important;
 }

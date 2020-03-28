@@ -20,10 +20,10 @@ type;
   this.data.produits.forEach(element => 
     {
       if(element.cat == this.type) {
-      this.products.push(element)
+      this.products.push(element);
+      this.category = this.type;
       }
     })
- 
   }
 
 

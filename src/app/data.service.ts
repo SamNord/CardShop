@@ -75,6 +75,8 @@ export class DataService {
     {id :49, titre : 'Tomates', image : 'assets/legumes/tomates1.jpeg', prix : (1.99).toFixed(2), cat : 'Légumes'}
   ];
 
+  
+
   productPanier : Array<any> = new Array<any>();
   obsTotal : Subject<any> = new Subject<any>();
   obsQty : Subject<any> = new Subject<any>();

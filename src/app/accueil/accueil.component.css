@@ -20,7 +20,8 @@ img {
 h1, h5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
-    color:rgb(51, 33, 45) !important;
+    /* color:rgb(51, 33, 45) !important; */
+    color:rgb(151, 173, 25) !important;
     font-weight: bold;
 }
 

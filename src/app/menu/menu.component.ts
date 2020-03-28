@@ -13,14 +13,4 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
     this.products = this.data.produits;
   }
-
-  GetSliders = (isFirst, isLast, isEven, isOdd) => {
-    return {
-      active : isFirst,
-      lastActive : isLast,
-      even : isEven,
-      odd : isOdd
-    };
-  }
-
 }

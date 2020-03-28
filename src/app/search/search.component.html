@@ -15,7 +15,7 @@
 </div>
 
 <div class="row m-3 resp">
-    <div class="col-6 col-sm-6 col-md-5 col-lg-3 m-2" *ngFor="let p of produits | filter : searchTerm">
+    <div class="col-7 col-sm-6 col-md-5 col-lg-4 col-xl-3 mb-3" *ngFor="let p of produits | filter : searchTerm">
         <div class="card" style="width: 15rem;">
             <a routerLink="/product/{{p.id}}"><img class="card-img-top" src="{{p. image}}" alt="..."></a>
         </div>

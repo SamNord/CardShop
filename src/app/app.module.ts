@@ -12,7 +12,6 @@ import { PanierComponent } from './panier/panier.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { MenuComponent } from './menu/menu.component';
 import { AccueilComponent } from './accueil/accueil.component';
-import { TestOwlCarousselComponent } from './test-owl-caroussel/test-owl-caroussel.component';
 import { CarouselModule }  from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -28,10 +27,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PanierComponent,
     SearchComponent,
     ListeProductsComponent,
-    DetailProduitComponent,
-    TestOwlCarousselComponent
-   
-   
+    DetailProduitComponent   
   ],
   imports: [
     BrowserModule,
