@@ -12,36 +12,22 @@
                     <a class="col-2 nav-item nav-link" routerLink="/catalog">Catalogue</a>
                     <a class="col-2 nav-item nav-link" routerLink="/panier">Panier</a>
                     <a class="col-3 nav-item nav-link" routerLink="/search">Chercher un produit</a>
-                    <div class="dropd col-3 nav-item nav-link">
-                        <button class="btn" (click) = "show()" mat-raised-button>Styles</button>
-                        <div id="drop-content" style="display: none;">
-                            <a href="#">thème 1</a>
-                            <a href="#">thème 2</a>
-                            <a href="#">thème 3</a>
+                    <div id="nav-options" class="btn-group pull-right hidden col-2">
+                        <button type="button" class="btn btn-default dropdown-toggle thumbnail" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+                            Academics
+                        </button>
+                        <div class="dropdown-menu">
+                           <a routerLink="/catalog"> Link page</a> 
+                            
+                            <a href="#"> Linkpage 2</a>
+                           
+                           <a href="#"> Link page 3</a>
                         </div>
                     </div>
-                    <!-- <select class="col-3 nav-item nav-link">
-                            <option value="">thèmes</option>
-                            <option value="" (click) = "change()">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                        </select> -->
-                    <!-- <li class="col-3 nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#" (click) = "change()">Action</a>
-                              <a class="dropdown-item" href="#">Another action</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                          </li> -->
                 </div>
             </div>
         </nav>
-
-
     </div>
 </div>
+
