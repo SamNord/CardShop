@@ -3,3 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+app-menu {
+    position: relative;
+    z-index: 1;
+}
+
+router-outlet {
+    position: absolute;
+    z-index: 2;
+}

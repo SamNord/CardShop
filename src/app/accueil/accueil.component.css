@@ -27,13 +27,9 @@ h1, h5 {
 
 
 
-
 @media screen and (max-width : 500px) {
     img {
         height: 50px !important;
         width: 70px !important;           
     }
-
-    
-
 }

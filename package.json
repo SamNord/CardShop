@@ -24,6 +24,7 @@
     "@angular/platform-browser": "~8.2.5",
     "@angular/platform-browser-dynamic": "~8.2.5",
     "@angular/router": "~8.2.5",
+    "angular-material": "^1.1.21",
     "animate.css": "^3.7.2",
     "babel": "^6.23.0",
     "boostrap": "^2.0.0",
@@ -55,6 +56,6 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "^3.8.3"
   }
 }

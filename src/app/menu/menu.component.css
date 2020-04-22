@@ -24,4 +24,30 @@ nav {
     
 }
 
+.dropd {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.btn {
+    padding: 10px 40px;
+    color: rgb(165, 163, 42);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#drop-content {
+    position: absolute;
+    z-index: 1;
+}
+
+#drop-content a {
+    display: block;
+    font-size: 20px;
+    background: grey;
+    text-decoration: none;
+    padding: 10px 36px;
+    margin-top: 2px;
+}
 
