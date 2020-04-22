@@ -14,6 +14,7 @@ import { MenuComponent } from './menu/menu.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { CarouselModule }  from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
 
 
 
@@ -35,7 +36,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     ReactiveFormsModule,
     CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
       
   ],
   providers: [],

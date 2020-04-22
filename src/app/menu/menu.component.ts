@@ -13,4 +13,9 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
     this.products = this.data.produits;
   }
+
+  change = () => {
+    var elt = document.querySelector("body");
+    elt.style.backgroundColor = "yellow";
+  }
 }
