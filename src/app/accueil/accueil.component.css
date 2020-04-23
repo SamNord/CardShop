@@ -27,6 +27,11 @@ h1, h5 {
 
 
 
+.ng-container img {
+position: relative;
+z-index: 2;
+}
+
 @media screen and (max-width : 500px) {
     img {
         height: 50px !important;
