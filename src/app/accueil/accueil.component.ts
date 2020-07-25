@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
-import { ActivationEnd } from '@angular/router';
+import { ActivationEnd, ActivatedRoute } from '@angular/router';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
@@ -12,7 +12,7 @@ export class AccueilComponent implements OnInit {
   products;
   title = 'angularowlslider';
  
-  constructor(private data: DataService) {}
+  constructor(private data: DataService, private route : ActivatedRoute) {}
 
   ngOnInit() {
     this.products = this.data.produits;

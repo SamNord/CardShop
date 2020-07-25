@@ -16,7 +16,7 @@ type;
 
   ngOnInit() {
     this.type = this.route.snapshot.params.type;
-    console.log(this.type)
+    // console.log(this.type)
   this.data.produits.forEach(element => 
     {
       if(element.cat == this.type) {
