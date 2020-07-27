@@ -1,6 +1,8 @@
-
+<div class="row m-3" *ngFor="let p of product">
+<h1>Détails produit : {{ p.titre }}</h1>
+</div>
 <div class="row m-3">
-  <div class="col-5 col-sm-7 col-md-9 col-lg-12 offset-3 mt-5">
+  <div class="col-5 col-sm-7 col-md-9 col-lg-12 mt-5">
     <div class="card mb-3" style="max-width: 640px;" *ngFor="let p of product">
       <div class="clearfix visible-sm-block"></div>
       <div class="row no-gutters">
