@@ -23,33 +23,16 @@
                     <button type="button" class="close" data-dismiss="modal">x</button>
                   </div>
                   <div class="modal-body">
-                    <h6>Petit titre</h6>
-                    Le Tigre (Panthera tigris) est un mammifère carnivore de la famille des félidés...
-                    Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
-                    quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un
-                    livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est
-                    aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été
-                    popularisé dans les années 1960 grâce à la vente de feuilles … <br>
+                    <h5>Infos</h5>
+                    {{ p.def }} <br>
                     <br>
-                    <h6>Petit titre</h6>
-                    Le Tigre (Panthera tigris) est un mammifère carnivore de la famille des félidés...
-                    Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
-                    quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un
-                    livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est
-                    aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été
-                    popularisé dans les années 1960 grâce à la vente de feuilles … <br>
-                    <br>
-                    <h6>Petit titre</h6>
-                    Le Tigre (Panthera tigris) est un mammifère carnivore de la famille des félidés...
-                    Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
-                    quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un
-                    livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est
-                    aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été
-                    popularisé dans les années 1960 grâce à la vente de feuilles …
-
+                    <h5>Liens utiles</h5>
+                    <ul *ngFor="let c of p.link; index as i">
+                      <li> <a href="{{ c }}" target="_blank">lien n°{{ i + 1 }}</a></li>
+                    </ul>
                   </div>
                   <div class="modal-footer">
-                    <p>source : "..."</p>
+                    <p>source : "{{ p.source }}"</p>
                   </div>
                 </div>
               </div>
