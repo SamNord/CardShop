@@ -30,3 +30,25 @@ img {
      color:yellow;
  }
 
+ .modal-title {
+     color: #97ad19;
+     
+ }
+
+ .modal-header, .modal-footer {
+    background: rgb(146, 99, 13);
+ }
+
+ .modal-body {
+    background: #97ad19;
+  color:  #6e4b08;
+  font-weight: bold;
+ }
+
+ 
+
+ .modal-footer p {
+     font-style: italic;
+     color: #97ad19;
+ }
+

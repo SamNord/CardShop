@@ -20,9 +20,10 @@ nav {
 }
 
 .survol :hover {
-    background-color: rgb(231, 14, 141);   
-    
+    background-color: beige;      
 }
+
+
 
 .dropd {
     position: relative;
