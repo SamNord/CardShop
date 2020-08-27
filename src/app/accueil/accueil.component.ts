@@ -11,15 +11,15 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class AccueilComponent implements OnInit {
   products;
   title = 'angularowlslider';
- 
-  constructor(private data: DataService, private route : ActivatedRoute) {}
+
+  constructor(private data: DataService, private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.products = this.data.produits;
 
   }
 
-  customOptions : OwlOptions = {
+  customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
     touchDrag: true,
@@ -31,34 +31,32 @@ export class AccueilComponent implements OnInit {
     animateOut: 'linear',
     dots: true,
     stagePadding: 10,
-    lazyLoad : true,
+    lazyLoad: true,
+    margin: 20,
     navText: ['', ''],
     responsive: {
       0: {
         items: 1,
-        margin: 30,
+        margin: 20,
         nav: true,
-        dots: false,
         navSpeed: 100
       },
       400: {
         items: 1,
-        margin: 30,
+        margin: 20,
         nav: true,
-        dots: false,
         navSpeed: 100
       },
       740: {
         items: 2,
-        margin: 30
+        margin: 20
       },
       940: {
         items: 3,
-        margin: 30
+        margin: 20
       }
     },
-    nav: false
+    nav: true
+
   }
-
-
 }
