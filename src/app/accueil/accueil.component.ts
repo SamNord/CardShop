@@ -42,7 +42,7 @@ export class AccueilComponent implements OnInit {
         navSpeed: 100
       },
       400: {
-        items: 1,
+        items: 1, 
         margin: 20,
         nav: true,
         navSpeed: 100
